@@ -1,0 +1,5 @@
+- Membuat monitoring ruang server menggunakan ESP32, sensor DHT22 (suhu dan kelembaban), sensor MQ7 (monoksida) dan Blynk 
+- Cara kerja:
+1. Sensor membaca suhu
+2. Nilai sensor ditampilkan datanya secara virtual pada platform Blynk
+3. Apabila sensor melewati nilai threshold (melebihi batas aman) maka Blynk memeberikan notifikasi pada perangkat pengguna dan email pengguna
